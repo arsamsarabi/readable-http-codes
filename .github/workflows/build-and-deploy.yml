@@ -19,8 +19,22 @@ jobs:
         run: yarn
       - name: Lint source code 
         run: yarn lint
-  publish:
+  test:
     needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull repository
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Install dependencies
+        run: yarn
+      - name: Run unit tests
+        run: yarn test        
+  publish:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Pull repository

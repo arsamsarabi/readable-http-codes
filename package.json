@@ -8,7 +8,7 @@
     "status-code",
     "status code"
   ],
-  "version": "1.0.14",
+  "version": "1.1.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/es/index.js",
   "types": "./lib/es/index.d.ts",
@@ -17,6 +17,7 @@
     "lib"
   ],
   "scripts": {
+    "test": "jest",
     "build:cjs": "tsc --project tsconfig-cjs.json",
     "build:es": "tsc --project tsconfig-es.json",
     "build": "rimraf lib && yarn build:cjs && yarn build:es",
@@ -40,14 +41,19 @@
     "url": "https://github.com/arsamsarabi/readable-http-codes.git"
   },
   "devDependencies": {
+    "@types/jest": "^27.5.0",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.1",
+    "jest": "^28.1.0",
+    "jest-each": "^28.1.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0",
     "typescript": "^4.5.5"
   },
   "lint-staged": {
