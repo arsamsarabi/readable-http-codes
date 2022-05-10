@@ -18,7 +18,7 @@
  *
  * @see [HTTP Status Code Definitions](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.4.1)
  */
-export const BAD_REQUEST = 400;
+export const BAD_REQUEST = 400
 
 /**
  * ### 401 Unauthorized
@@ -44,7 +44,7 @@ export const BAD_REQUEST = 400;
  *
  * @see [MDN Status 401](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
  */
-export const UNAUTHORIZED = 401;
+export const UNAUTHORIZED = 401
 
 /**
  * ### 402 Payment Required
@@ -72,7 +72,7 @@ export const UNAUTHORIZED = 401;
  * @see [Specification](https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.2)
  * @see [Experimental](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Conventions_definitions#experimental)
  */
-export const PAYMENT_REQUIRED = 402;
+export const PAYMENT_REQUIRED = 402
 
 /**
  * ### 403 Forbidden
@@ -97,7 +97,7 @@ export const PAYMENT_REQUIRED = 402;
  * @see [MDN Status 403](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403)
  * @see [MDN Status 401](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401)
  */
-export const FORBIDDEN = 403;
+export const FORBIDDEN = 403
 
 /**
  * ### 404 Not Found
@@ -123,7 +123,7 @@ export const FORBIDDEN = 403;
  * @see [MDN Status 410](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410)
  * @see [Link rot](https://en.wikipedia.org/wiki/Link_rot)
  */
-export const NOT_FOUND = 404;
+export const NOT_FOUND = 404
 
 /**
  * ### 405 Method Not Allowed
@@ -147,7 +147,7 @@ export const NOT_FOUND = 404;
  *
  * @see [MDN Status 405](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405)
  */
-export const METHOD_NOT_ALLOWED = 405;
+export const METHOD_NOT_ALLOWED = 405
 
 /**
  * ### 406 Not Acceptable
@@ -178,7 +178,7 @@ export const METHOD_NOT_ALLOWED = 405;
  * @see [Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
  * @see [Accept-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding)
  */
-export const NOT_ACCEPTABLE = 406;
+export const NOT_ACCEPTABLE = 406
 
 /**
  * ### 407 Proxy Authentication Required
@@ -204,7 +204,7 @@ export const NOT_ACCEPTABLE = 406;
  * @see [Proxy server](https://developer.mozilla.org/en-US/docs/Glossary/Proxy_server)
  * @see [Proxy-Authenticate](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Proxy-Authenticate)
  */
-export const PROXY_AUTHENTICATION_REQUIRED = 407;
+export const PROXY_AUTHENTICATION_REQUIRED = 407
 
 /**
  * ### 408 Request Timeout
@@ -231,7 +231,7 @@ export const PROXY_AUTHENTICATION_REQUIRED = 407;
  * @see [MDN Status 408](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408)
  * @see [Connection](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Connection)
  */
-export const REQUEST_TIMEOUT = 408;
+export const REQUEST_TIMEOUT = 408
 
 /**
  * ### 409 Conflict
@@ -256,7 +256,7 @@ export const REQUEST_TIMEOUT = 408;
  * @see [MDN Status 409](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409)
  * @see [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/PUT)
  */
-export const CONFLICT = 409;
+export const CONFLICT = 409
 
 /**
  * ### 410 Gone
@@ -280,7 +280,7 @@ export const CONFLICT = 409;
  *
  * @see [MDN Status 410](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410)
  */
-export const GONE = 410;
+export const GONE = 410
 
 /**
  * ### 411 Length Required
@@ -307,7 +307,7 @@ export const GONE = 410;
  * @see [Content-Length](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Length)
  * @see [Transfer-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding)
  */
-export const LENGTH_REQUIRED = 411;
+export const LENGTH_REQUIRED = 411
 
 /**
  * ### 412 Precondition Failed
@@ -333,7 +333,7 @@ export const LENGTH_REQUIRED = 411;
  * @see [If-Unmodified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)
  * @see [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
  */
-export const PRECONDITION_FAILED = 412;
+export const PRECONDITION_FAILED = 412
 
 /**
  * ### 413 Payload Too Large
@@ -356,7 +356,7 @@ export const PRECONDITION_FAILED = 412;
  * @see [MDN Status 413](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/413)
  * @see [Retry-After](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After)
  */
-export const PAYLOAD_TOO_LARGE = 413;
+export const PAYLOAD_TOO_LARGE = 413
 
 /**
  * ### 414 URI Too Long
@@ -385,7 +385,7 @@ export const PAYLOAD_TOO_LARGE = 413;
  * @see [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET)
  * @see [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST)
  */
-export const URI_TOO_LONG = 414;
+export const URI_TOO_LONG = 414
 
 /**
  * ### 415 Unsupported Media Type
@@ -411,7 +411,7 @@ export const URI_TOO_LONG = 414;
  * @see [Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)
  * @see [Content-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding)
  */
-export const UNSUPPORTED_MEDIA_TYPE = 415;
+export const UNSUPPORTED_MEDIA_TYPE = 415
 
 /**
  * ### 416 Range Not Satisfiable
@@ -439,7 +439,7 @@ export const UNSUPPORTED_MEDIA_TYPE = 415;
  * @see [Range](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range)
  * @see [Content-Range](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Range)
  */
-export const RANGE_NOT_SATISFIABLE = 416;
+export const RANGE_NOT_SATISFIABLE = 416
 
 /**
  * ### 417 Expectation Failed
@@ -464,7 +464,7 @@ export const RANGE_NOT_SATISFIABLE = 416;
  * @see [MDN Status 417](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/417)
  * @see [Expect](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect)
  */
-export const EXPECTATION_FAILED = 417;
+export const EXPECTATION_FAILED = 417
 
 /**
  * ### 418 I'm a teapot
@@ -488,7 +488,7 @@ export const EXPECTATION_FAILED = 417;
  *
  * @see [MDN Status 418](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418)
  */
-export const IM_A_TEAPOT = 418;
+export const IM_A_TEAPOT = 418
 
 /**
  * ### 421 Misdirected Request
@@ -509,7 +509,7 @@ export const IM_A_TEAPOT = 418;
  * Browser compatibility: **Unknown**.
  *
  */
-export const MISDIRECTED_REQUEST = 421;
+export const MISDIRECTED_REQUEST = 421
 
 /**
  * ### 422 Unprocessable Entity
@@ -531,7 +531,7 @@ export const MISDIRECTED_REQUEST = 421;
  *
  * @see [MDN Status 422](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422)
  */
-export const UNPROCESSABLE_ENTITY = 422;
+export const UNPROCESSABLE_ENTITY = 422
 
 /**
  * ### 423 Locked
@@ -552,7 +552,7 @@ export const UNPROCESSABLE_ENTITY = 422;
  * Browser compatibility: **Unknown**.
  *
  */
-export const LOCKED = 423;
+export const LOCKED = 423
 
 /**
  * ### 424 Failed Dependency
@@ -573,7 +573,7 @@ export const LOCKED = 423;
  * Browser compatibility: **Unknown**.
  *
  */
-export const FAILED_DEPENDENCY = 424;
+export const FAILED_DEPENDENCY = 424
 
 /**
  * ### 425 Too Early
@@ -598,7 +598,7 @@ export const FAILED_DEPENDENCY = 424;
  * @see [MDN Status 425](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/425)
  * @see [Experimental](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Conventions_definitions#experimental)
  */
-export const TOO_EARLY = 425;
+export const TOO_EARLY = 425
 
 /**
  * ### 426 Upgrade Required
@@ -623,7 +623,7 @@ export const TOO_EARLY = 425;
  * @see [MDN Status 426](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/426)
  * @see [Upgrade](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade)
  */
-export const UPGRADE_REQUIRED = 426;
+export const UPGRADE_REQUIRED = 426
 
 /**
  * ### 428 Precondition Required
@@ -652,7 +652,7 @@ export const UPGRADE_REQUIRED = 426;
  * @see [If-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match)
  * @see [412 Precondition Filed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/412)
  */
-export const PRECONDITION_REQUIRED = 428;
+export const PRECONDITION_REQUIRED = 428
 
 /**
  * ### 429 Too Many Requests
@@ -677,7 +677,7 @@ export const PRECONDITION_REQUIRED = 428;
  * @see [MDN Status 412](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429)
  * @see [Retry-After](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After)
  */
-export const TOO_MANY_REQUESTS = 429;
+export const TOO_MANY_REQUESTS = 429
 
 /**
  * ### 431 Request Header Fields Too Large
@@ -708,7 +708,7 @@ export const TOO_MANY_REQUESTS = 429;
  * @see [Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)
  * @see [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
  */
-export const REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
+export const REQUEST_HEADER_FIELDS_TOO_LARGE = 431
 
 /**
  * ### 451 Unavailable For Legal Reasons
@@ -730,4 +730,4 @@ export const REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
  *
  * @see [MDN Status 451](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/451)
  */
-export const UNAVAILABLE_FOR_LEGAL_REASONS = 451;
+export const UNAVAILABLE_FOR_LEGAL_REASONS = 451

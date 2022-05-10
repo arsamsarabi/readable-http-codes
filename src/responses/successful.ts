@@ -26,7 +26,7 @@
  *
  * @see [MDN Status 200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200)
  */
-export const OK: number = 200;
+export const OK: number = 200
 
 /**
  * ### 201 Created
@@ -51,7 +51,7 @@ export const OK: number = 200;
  * @see [MDN Status 201](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/201)
  * @see [MDN Headers Location](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location)
  */
-export const CREATED: number = 201;
+export const CREATED: number = 201
 
 /**
  * ### 202 Accepted
@@ -75,7 +75,7 @@ export const CREATED: number = 201;
  *
  * @see [MDN Status 202](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/202)
  */
-export const ACCEPTED: number = 202;
+export const ACCEPTED: number = 202
 
 /**
  * ### 203 Non-Authoritative Information
@@ -100,7 +100,7 @@ export const ACCEPTED: number = 202;
  * @see [MDN Status 203](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/203)
  * @see [MDN Proxy Server](https://developer.mozilla.org/en-US/docs/Glossary/Proxy_server)
  */
-export const NON_AUTHORITATIVE_INFORMATION: number = 203;
+export const NON_AUTHORITATIVE_INFORMATION: number = 203
 
 /**
  * ### 204 No Content
@@ -127,7 +127,7 @@ export const NON_AUTHORITATIVE_INFORMATION: number = 203;
  * @see [MDN Status 204](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204)
  * @see [MDN Headers ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
  */
-export const NO_CONTENT: number = 204;
+export const NO_CONTENT: number = 204
 
 /**
  * ### 205 Reset Content
@@ -149,7 +149,7 @@ export const NO_CONTENT: number = 204;
  *
  * @see [MDN Status 205](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/205)
  */
-export const RESET_CONTENT: number = 205;
+export const RESET_CONTENT: number = 205
 
 /**
  * ### 206 Partial Content
@@ -178,7 +178,7 @@ export const RESET_CONTENT: number = 205;
  * @see [MDN Headers Content-Range](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Range)
  * @see [MDN Headers Content-Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type)
  */
-export const PARTIAL_CONTENT: number = 206;
+export const PARTIAL_CONTENT: number = 206
 
 /**
  * ### 207 Multi-Status (WebDAV)
@@ -200,7 +200,7 @@ export const PARTIAL_CONTENT: number = 206;
  *
  * @see [MDN WebDAV](https://developer.mozilla.org/en-US/docs/Glossary/WebDAV)
  */
-export const MULTI_STATUS: number = 207;
+export const MULTI_STATUS: number = 207
 
 /**
  * ### 208 Already Reported (WebDAV)
@@ -222,7 +222,7 @@ export const MULTI_STATUS: number = 207;
  *
  * @see [MDN WebDAV](https://developer.mozilla.org/en-US/docs/Glossary/WebDAV)
  */
-export const ALREADY_REPORTED: number = 208;
+export const ALREADY_REPORTED: number = 208
 
 /**
  * ### 226 IM Used (HTTP Delta encoding)
@@ -244,4 +244,4 @@ export const ALREADY_REPORTED: number = 208;
  *
  * @see [Delta encoding in HTTP](https://datatracker.ietf.org/doc/html/rfc3229)
  */
-export const IM_USED: number = 226;
+export const IM_USED: number = 226

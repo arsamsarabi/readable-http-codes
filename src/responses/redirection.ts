@@ -21,7 +21,7 @@
  * @see [MDN Status 300](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/300)
  * @see [MDN Headers Location](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location)
  */
-export const MULTIPLE_CHOICES = 300;
+export const MULTIPLE_CHOICES = 300
 
 /**
  * ### 301 Moved Permanently
@@ -47,7 +47,7 @@ export const MULTIPLE_CHOICES = 300;
  * @see [MDN Status 301](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301)
  * @see [MDN Headers Location](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location)
  */
-export const MOVED_PERMANENTLY = 301;
+export const MOVED_PERMANENTLY = 301
 
 /**
  * ### 302 Found
@@ -73,7 +73,7 @@ export const MOVED_PERMANENTLY = 301;
  *
  * @see [MDN Status 302](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/302)
  */
-export const FOUND = 302;
+export const FOUND = 302
 
 /**
  * ### 303 See Other
@@ -95,7 +95,7 @@ export const FOUND = 302;
  *
  * @see [MDN Status 303](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303)
  */
-export const SEE_OTHER = 303;
+export const SEE_OTHER = 303
 
 /**
  * ### 304 Not Modified
@@ -130,7 +130,7 @@ export const SEE_OTHER = 303;
  * @see [MDN Headers Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)
  * @see [MDN Headers Vary](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Vary)
  */
-export const NOT_MODIFIED = 304;
+export const NOT_MODIFIED = 304
 
 /**
  * @deprecated
@@ -150,7 +150,7 @@ export const NOT_MODIFIED = 304;
  * ```
  *
  */
-export const USE_PROXY = 305;
+export const USE_PROXY = 305
 
 /**
  * ### 306 Unused
@@ -169,7 +169,7 @@ export const USE_PROXY = 305;
  * ```
  *
  */
-export const UNUSED = 306;
+export const UNUSED = 306
 
 /**
  * ### 307 Temporary Redirect
@@ -196,7 +196,7 @@ export const UNUSED = 306;
  * @see [MDN Status 306](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307)
  * @see [MDN Headers Location](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location)
  */
-export const TEMPORARY_REDIRECT = 307;
+export const TEMPORARY_REDIRECT = 307
 
 /**
  * ### 308 Permanent Redirect
@@ -226,4 +226,4 @@ export const TEMPORARY_REDIRECT = 307;
  * @see [MDN Headers Location](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Location)
  * @see [Perform a resumable upload](https://developers.google.com/drive/api/v3/manage-uploads#resumable)
  */
-export const PERMANENT_REDIRECT = 308;
+export const PERMANENT_REDIRECT = 308

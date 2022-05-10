@@ -21,7 +21,7 @@
  * @see [MDN Status 100](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100)
  * @see [MDN Headers Expect](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect)
  */
-export const CONTINUE = 100;
+export const CONTINUE = 100
 
 /**
  * ### 101 Switching Protocols
@@ -47,7 +47,7 @@ export const CONTINUE = 100;
  * @see [MDN Headers Upgrade](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Upgrade)
  * @see [MDN Protocol upgrade mechanism](https://developer.mozilla.org/en-US/docs/Web/HTTP/Protocol_upgrade_mechanism)
  */
-export const SWITCHING_PROTOCOLS = 101;
+export const SWITCHING_PROTOCOLS = 101
 
 /**
  * ### 102 Processing (WebDAV)
@@ -69,7 +69,7 @@ export const SWITCHING_PROTOCOLS = 101;
  *
  * @see [MDN WebDAV](https://developer.mozilla.org/en-US/docs/Glossary/WebDAV)
  */
-export const PROCESSING = 102;
+export const PROCESSING = 102
 
 /**
  * ### 103 Early Hints
@@ -92,4 +92,4 @@ export const PROCESSING = 102;
  * @see [MDN Status 103](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103)
  * @see [MDN Headers Link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link)
  */
-export const EARLY_HINTS = 103;
+export const EARLY_HINTS = 103

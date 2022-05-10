@@ -20,7 +20,7 @@
  *
  * @see [MDN Status 500](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500)
  */
-export const INTERNAL_SERVER_ERROR = 500;
+export const INTERNAL_SERVER_ERROR = 500
 
 /**
  * ### 501 Not Implemented
@@ -52,7 +52,7 @@ export const INTERNAL_SERVER_ERROR = 500;
  * @see [Retry-After](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After)
  * @see [405 Method Not Allowed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405)
  */
-export const NOT_IMPLEMENTED = 501;
+export const NOT_IMPLEMENTED = 501
 
 /**
  * ### 502 Bad Gateway
@@ -77,7 +77,7 @@ export const NOT_IMPLEMENTED = 501;
  *
  * @see [MDN Status 502](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502)
  */
-export const BAD_GATEWAY = 502;
+export const BAD_GATEWAY = 502
 
 /**
  * ### 503 Service Unavailable
@@ -105,7 +105,7 @@ export const BAD_GATEWAY = 502;
  * @see [MDN Status 503](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503)
  * @see [Retry-After](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After)
  */
-export const SERVICE_UNAVAILABLE = 503;
+export const SERVICE_UNAVAILABLE = 503
 
 /**
  * ### 504 Gateway Timeout
@@ -130,7 +130,7 @@ export const SERVICE_UNAVAILABLE = 503;
  *
  * @see [MDN Status 504](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504)
  */
-export const GATEWAY_TIMEOUT = 504;
+export const GATEWAY_TIMEOUT = 504
 
 /**
  * ### 505 HTTP Version Not Supported
@@ -152,7 +152,7 @@ export const GATEWAY_TIMEOUT = 504;
  *
  * @see [MDN Status 505](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/505)
  */
-export const HTTP_VERSION_NOT_SUPPORTED = 505;
+export const HTTP_VERSION_NOT_SUPPORTED = 505
 
 /**
  * ### 506 Variant Also Negotiates
@@ -177,7 +177,7 @@ export const HTTP_VERSION_NOT_SUPPORTED = 505;
  * @see [MDN Status 506](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/506)
  * @see [RFC 2295](https://datatracker.ietf.org/doc/html/rfc2295)
  */
-export const VARIANT_ALSO_NEGOTIATES = 506;
+export const VARIANT_ALSO_NEGOTIATES = 506
 
 /**
  * ### 507 Insufficient Storage
@@ -202,7 +202,7 @@ export const VARIANT_ALSO_NEGOTIATES = 506;
  * @see [MDN Status 507](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/507)
  * @see [RFC 4918](https://datatracker.ietf.org/doc/html/rfc4918)
  */
-export const INSUFFICIENT_STORAGE = 507;
+export const INSUFFICIENT_STORAGE = 507
 
 /**
  * ### 508 Loop Detected
@@ -226,7 +226,7 @@ export const INSUFFICIENT_STORAGE = 507;
  *
  * @see [MDN Status 508](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/508)
  */
-export const LOOP_DETECTED = 508;
+export const LOOP_DETECTED = 508
 
 /**
  * ### 510 Not Extended
@@ -251,7 +251,7 @@ export const LOOP_DETECTED = 508;
  * @see [MDN Status 510](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/510)
  * @see [RFC 2774](https://datatracker.ietf.org/doc/html/rfc2774)
  */
-export const NOT_EXTENDED = 510;
+export const NOT_EXTENDED = 510
 
 /**
  * ### 511 Network Authentication Required
@@ -277,4 +277,4 @@ export const NOT_EXTENDED = 510;
  *
  * @see [MDN Status 511](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/511)
  */
-export const NETWORK_AUTHENTICATION_REQUIRED = 511;
+export const NETWORK_AUTHENTICATION_REQUIRED = 511
