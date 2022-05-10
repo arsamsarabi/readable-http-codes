@@ -5,7 +5,7 @@ on:
     types: [created]
 
 jobs:
-  pre-publish:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Pull repository
@@ -18,31 +18,19 @@ jobs:
         run: yarn
       - name: Lint source code 
         run: yarn lint
-      - name: Build production package
-        run: yarn build
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: package
-          retention-days: 1
-          path: |
-            lib
-            package.json
-            README.md
-            LICENSE
   publish:
-    needs: pre-publish
+    needs: lint
     runs-on: ubuntu-latest
     steps:
+      - name: Pull repository
+        uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-      - name: Download a single artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: package
+      - name: Install dependencies
+        run: yarn
       - name: Publish to NPM
         run: yarn publish
         env:
