@@ -1,8 +1,9 @@
 name: Build and deploy
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 jobs:
   lint:
