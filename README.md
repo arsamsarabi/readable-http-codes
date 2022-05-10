@@ -6,6 +6,16 @@ JsDoc written for all the HTTP codes which includes relevant information and lin
 
 Based on the [MDN HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
+### Install:
+
+```shell
+# Using NPM
+npm install readable-http-codes
+
+# The better option
+yarn add readable-http-codes
+```
+
 ### Usage:
 
 ```typescript
