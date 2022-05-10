@@ -1,10 +1,10 @@
 {
   "name": "readable-http-codes",
   "version": "1.0.2",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
-    "dist/*"
+    "lib/*"
   ],
   "license": "MIT",
   "author": {
@@ -13,7 +13,7 @@
     "url": "https://arsam.dev"
   },
   "scripts": {
-    "build": "rimraf dist && tsc"
+    "build": "rimraf lib && tsc"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

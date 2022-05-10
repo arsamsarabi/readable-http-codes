@@ -6,7 +6,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "declaration": true,
-    "outDir": "dist",
+    "outDir": "lib",
     "removeComments": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
