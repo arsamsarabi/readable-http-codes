@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Build package
-        run: yarn        
+        run: yarn build
       - name: Publish to NPM
         run: yarn publish
         env:
