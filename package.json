@@ -1,0 +1,21 @@
+{
+  "name": "readable-http-codes",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Arsam Sarabi",
+    "email": "arsamsarabi@me.com",
+    "url": "https://arsam.dev"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  }
+}
