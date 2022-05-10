@@ -31,7 +31,7 @@ jobs:
             README.md
             LICENSE
   publish:
-    needs: prepublish
+    needs: pre-publish
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node
