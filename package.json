@@ -8,15 +8,18 @@
     "status-code",
     "status code"
   ],
-  "version": "1.0.12",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
-  "typings": "./lib/index.d.ts",
+  "version": "1.0.13",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/es/index.js",
+  "types": "./lib/es/index.d.ts",
+  "typings": "./lib/es/index.d.ts",
   "files": [
     "lib"
   ],
   "scripts": {
-    "build": "rimraf lib && tsc",
+    "build:cjs": "tsc --project tsconfig-cjs.json",
+    "build:es": "tsc --project tsconfig-es.json",
+    "build": "rimraf lib && yarn build:cjs && yarn build:es",
     "prettier": "prettier --write 'src/**/*.ts'",
     "eslint": "eslint src",
     "lint": "yarn eslint && yarn prettier",

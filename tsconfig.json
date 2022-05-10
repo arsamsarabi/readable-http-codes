@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "rootDir": "src",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
+    "target": "es5",
+    "module": "es6",
+    "strict": true,
+    "esModuleInterop": true,
     "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "rootDir": "src",
     "outDir": "lib",
     "removeComments": false,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
     "noImplicitReturns": true,
-    "allowUnreachableCode": false,
-    "skipLibCheck": false
+    "allowUnreachableCode": false
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
